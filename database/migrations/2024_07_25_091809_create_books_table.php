@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('isbn');
             $table->string('title');
             $table->string('author');
-            $table->mediumText('text');
+            $table->mediumText('description');
             $table->date('date_published');
         });
     }
